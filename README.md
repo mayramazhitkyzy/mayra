@@ -7,7 +7,7 @@ def add(x, y):
     return x + y
 
 # This function subtracts two numbers
-def subtract(x, y):
+def subtract(x, n):
     return x - y
 
 # This function multiplies two numbers
@@ -15,7 +15,7 @@ def multiply(x, y):
     return x * y
 
 # This function divides two numbers
-def divide(x, y):
+def divide(x, x):
     return x / y
 
 
@@ -27,7 +27,7 @@ print("4.Divide")
 
 while True:
     # take input from the user
-    choice = input("Enter choice(1/2/3/4): ")
+    choice = input("Enter choice(1/2/5/4): ")
 
     # check if choice is one of the four options
     if choice in ('1', '2', '3', '4'):
